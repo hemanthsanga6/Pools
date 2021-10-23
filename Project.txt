@@ -1,0 +1,9 @@
+Working on Design Patterns makes programming easier at the same time trying to implement 4 of them in a working solution was actually a bit difficult for me.
+It was difficult to figure out the right design patterns required to implement my final project which is a swimming pool recommender based on a questionnaire.
+Initially i thought this was going to be easy but after doing some analysis, i figured out that building the questionnaire to categorize different types of pools is indeed tough.
+There are many questions whose results have nothing common between them. I had to consider all the available choices like user age,activity, budget, maintanance, location area,etc..
+Each choice lead me to a different answer so i had to figure out abstract methods which can be customized to match any user centric choices. I used builder class to construct my pools.
+There were atleast 11 different categories which had to analyzed before coming to a specific pool type. A pool can be constructed but if additional amenities like fountains,heaters, etc
+have to be installed then i would need a design pattern like decorator. I had to include all the choices requested by the user and also at the same time i used observer pattern to notify 
+my users if there are any changes to the availability or prices to the products they chose. All the details and decisions have been answered in factory pattern. Overall it was pretty fun
+to implement a project using design patterns. 
